@@ -1,0 +1,25 @@
+.plain-background{
+    background-color: #e4f9f5;
+}
+
+  h1 {
+    font-family: "Sacramento", cursive;
+    color: #40514e;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .profilepic {
+    border-radius: 100%;
+  }
+
+  .hello {
+    padding-top: 50px;
+  }
+
+  .cat {
+    border: 5px solid black;
+    border-radius: 10px;
+  }
