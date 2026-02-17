@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobFinder.in</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+  <style>
+
+    .title-box {
+      background-color: rgb(66, 66, 233);
+      height: 400px;
+      width: 100%;
+    }
+
+    .heading {
+      color: aliceblue;
+      display: flex;
+      justify-content: center
+    }
+
+    .main {
+      padding-top: 50px;
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    .sub {
+      font-size: 1em;
+    }
+
+    .navbar-brand {
+      font-family: "Boldonse", system-ui;
+      font-weight: bold;
+      font-style:normal;
+      letter-spacing: 1px;
+    }
+
+    .search-area {
+      background-color: aliceblue;
+      width: 100%;
+      height: 80px;
+      border-radius: 5px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    @media (min-width: 992) {
+      .searcg-area {
+        width: 50%;
+      }
+    }
+
+    .row {
+      margin: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .webinfo {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0 10px 0;
+      padding: 10px;
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      padding: 10px;
+    }
+
+    .btn {
+      background-color: rgb(66, 66, 233);
+      color:aliceblue
+    }
+
+    body > div.container.my-5 > div:nth-child(2) {
+      margin-bottom: 16px;
+      margin-top: 0;
+    }
+
+    body > div.container.my-5 > div:nth-child(3) {
+      margin-bottom: 16px;
+      margin-top: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./Assets/suitcase-lg-normal.svg" alt="Company Icon" height="40"> JobFinder.in</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./public/about me.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://app.flowcv.com/resumes">Resume Builder</a></li>
+                <li><a class="dropdown-item" href="./public/pricing.html">Pricing</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Your Profile</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="title-box">
+    <div class="main heading">Find Your Dream Job Today!</div>
+    <div class="sub heading">Discover thousands of job opportunities with all the information you need</div>
+      <div class="container-fluid search-area">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="🔎 Job title" aria-label="Search">
+          <input class="form-control me-2" type="search" placeholder="📍 Location" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+
+    <div class="row">
+      <div class="col-md-4 col-sm-12 webinfo"><div class="card" style="width: 18rem;">
+        <img src="./Assets/suitcase-lg-normal.svg" class="card-img-top" alt="..." height="50">
+        <div class="card-body">
+          <h5 class="card-title box">10K +</h5>
+          <p class="card-text box">Job Listing</p>
+        </div>
+      </div></div>
+      <div class="col-md-4 col-sm-12 webinfo"><div class="card" style="width: 18rem;">
+        <img src="./Assets/buildings-lg-normal.svg" class="card-img-top" alt="..." height="50">
+        <div class="card-body">
+          <h5 class="card-title box">1.2K +</h5>
+          <p class="card-text box">Companies</p>
+        </div>
+      </div></div>
+      <div class="col-md-4 col-sm-12 webinfo"><div class="card" style="width: 18rem;">
+        <img src="./Assets/graph_up-lg.svg" class="card-img-top" alt="..." height="50">
+        <div class="card-body">
+          <h5 class="card-title box">3.4M +</h5>
+          <p class="card-text box">Job Seekers</p>
+        </div>
+      </div></div>
+  </div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Featured Jobs</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Frontend Developer</h5>
+          <p class="card-text">Looking for a React.js expert with strong CSS skills to build user-friendly UIs. Remote opportunity available.</p>
+          <a href="#" class="btn btn-primary">Apply</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Backend Engineer</h5>
+          <p class="card-text">Join our team as a Node.js backend developer with experience in REST APIs and databases.</p>
+          <a href="#" class="btn btn-primary">Apply</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">DevOps Specialist</h5>
+          <p class="card-text">Seeking a DevOps engineer with hands-on experience in CI/CD pipelines, AWS, and Docker.</p>
+          <a href="#" class="btn btn-primary">Apply</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Frontend Developer</h5>
+          <p class="card-text">Looking for a React.js expert with strong CSS skills to build user-friendly UIs. Remote opportunity available.</p>
+          <a href="#" class="btn btn-primary">Apply</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Backend Engineer</h5>
+          <p class="card-text">Join our team as a Node.js backend developer with experience in REST APIs and databases.</p>
+          <a href="#" class="btn btn-primary">Apply</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">DevOps Specialist</h5>
+          <p class="card-text">Seeking a DevOps engineer with hands-on experience in CI/CD pipelines, AWS, and Docker.</p>
+          <a href="#" class="btn btn-primary">Apply</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-4">
+    <button class="btn btn-outline-primary">Load More</button>
+  </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-light py-5 mt-5">
+  <div class="container">
+    <div class="row">
+      <!-- About -->
+      <div class="col-md-3">
+        <h5>JobFinder.in</h5>
+        <p>Find your dream job with ease. We aggregate jobs from top sources and help you land the perfect opportunity.</p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-3">
+        <h5>Company</h5>
+        <ul class="list-unstyled">
+          <li><a href="./public/about me.html" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Careers</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="col-md-3">
+        <h5>Resources</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://app.flowcv.com/resumes" class="text-light text-decoration-none">Resume Builder</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Interview Tips</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Job Alerts</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Help Center</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-3">
+        <h5>Subscribe</h5>
+        <p>Get the latest job updates in your inbox.</p>
+        <form>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Your email">
+            <button class="btn btn-primary">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <hr class="my-4 border-light">
+
+    <!-- Footer Bottom -->
+    <div class="d-flex justify-content-between">
+      <p>&copy; 2025 JobFinder.in. All rights reserved.</p>
+      <div>
+        <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
